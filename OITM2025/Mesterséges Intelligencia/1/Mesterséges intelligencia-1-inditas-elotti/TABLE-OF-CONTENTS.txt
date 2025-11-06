@@ -1,0 +1,3 @@
+name,size,md5
+reservation_data.csv,9247,953f99c9d71f8628c77f516851159bf7
+Hotel-Reservations.csv,3240604,922b55cf208d0549792548e5a3cff6f5
