@@ -1,0 +1,220 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": "energy-monitor:v2.1",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "ImageID": "sha256:abc123def456...",
+    "DiffIDs": [
+      "sha256:layer1...",
+      "sha256:layer2..."
+    ],
+    "RepoTags": ["energy-monitor:v2.1"],
+    "RepoDigests": ["energy-monitor@sha256:..."]
+  },
+  "Results": [
+    {
+      "Target": "energy-monitor:v2.1 (debian 11.8)",
+      "Class": "os-pkgs",
+      "Type": "debian",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2023-12345",
+          "PkgName": "openssl",
+          "InstalledVersion": "1.1.1n-0+deb11u3",
+          "FixedVersion": "1.1.1w",
+          "Layer": {
+            "DiffID": "sha256:layer1..."
+          },
+          "SeveritySource": "debian",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-12345",
+          "Title": "openssl: critical vulnerability in SSL/TLS implementation",
+          "Description": "A critical vulnerability in OpenSSL allows remote code execution...",
+          "Severity": "CRITICAL",
+          "CweIDs": ["CWE-295"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            }
+          },
+          "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-12345",
+            "https://security.debian.org/CVE-2023-12345"
+          ],
+          "PublishedDate": "2023-11-15T10:00:00Z",
+          "LastModifiedDate": "2023-11-20T14:30:00Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-44228",
+          "PkgName": "log4j",
+          "InstalledVersion": "2.17.0",
+          "FixedVersion": "2.20.0",
+          "Layer": {
+            "DiffID": "sha256:layer2..."
+          },
+          "SeveritySource": "nvd",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-44228",
+          "Title": "log4j-core: Remote code execution in Log4j 2.x",
+          "Description": "Apache Log4j2 <=2.14.1 JNDI features do not protect against attacker controlled LDAP...",
+          "Severity": "CRITICAL",
+          "CweIDs": ["CWE-502", "CWE-400"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V3Score": 10.0
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V3Score": 10.0
+            }
+          },
+          "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-44228",
+            "https://logging.apache.org/log4j/2.x/security.html"
+          ],
+          "PublishedDate": "2021-12-10T10:15:00Z",
+          "LastModifiedDate": "2023-06-12T18:15:00Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-56789",
+          "PkgName": "nodejs",
+          "InstalledVersion": "18.18.0",
+          "FixedVersion": "18.19.0",
+          "Layer": {
+            "DiffID": "sha256:layer3..."
+          },
+          "SeveritySource": "ubuntu",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-56789",
+          "Title": "nodejs: HTTP request smuggling vulnerability",
+          "Description": "Node.js versions prior to 18.19.0 are vulnerable to HTTP request smuggling...",
+          "Severity": "HIGH",
+          "CweIDs": ["CWE-444"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+              "V3Score": 8.2
+            }
+          },
+          "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-56789",
+            "https://nodejs.org/en/blog/vulnerability/"
+          ],
+          "PublishedDate": "2023-10-20T08:30:00Z",
+          "LastModifiedDate": "2023-11-05T12:00:00Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-11111",
+          "PkgName": "express",
+          "InstalledVersion": "4.18.2",
+          "FixedVersion": "4.18.3",
+          "Layer": {
+            "DiffID": "sha256:layer4..."
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-11111",
+          "Title": "express: Path traversal vulnerability in static file serving",
+          "Description": "Express versions before 4.18.3 contain a path traversal vulnerability...",
+          "Severity": "HIGH",
+          "CweIDs": ["CWE-22"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            },
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://github.com/advisories/GHSA-xxxx-yyyy-zzzz",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-11111"
+          ],
+          "PublishedDate": "2024-01-15T14:00:00Z",
+          "LastModifiedDate": "2024-01-20T10:30:00Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-99999",
+          "PkgName": "postgres",
+          "InstalledVersion": "14.10",
+          "FixedVersion": "14.11",
+          "Layer": {
+            "DiffID": "sha256:layer5..."
+          },
+          "SeveritySource": "debian",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-99999",
+          "Title": "postgresql: SQL injection vulnerability in COPY command",
+          "Description": "PostgreSQL before 14.11 allows SQL injection via specially crafted COPY commands...",
+          "Severity": "HIGH",
+          "CweIDs": ["CWE-89"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 7.8
+            }
+          },
+          "References": [
+            "https://www.postgresql.org/support/security/CVE-2023-99999/",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-99999"
+          ],
+          "PublishedDate": "2023-12-01T09:00:00Z",
+          "LastModifiedDate": "2023-12-10T16:45:00Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-44444",
+          "PkgName": "nginx",
+          "InstalledVersion": "1.23.4",
+          "FixedVersion": "1.24.0",
+          "Layer": {
+            "DiffID": "sha256:layer6..."
+          },
+          "SeveritySource": "debian",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-44444",
+          "Title": "nginx: Information disclosure in error pages",
+          "Description": "NGINX versions before 1.24.0 may leak sensitive information in error pages...",
+          "Severity": "MEDIUM",
+          "CweIDs": ["CWE-200"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://nginx.org/en/security_advisories.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-44444"
+          ],
+          "PublishedDate": "2023-09-10T12:00:00Z",
+          "LastModifiedDate": "2023-09-25T08:30:00Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-22222",
+          "PkgName": "jackson-databind",
+          "InstalledVersion": "2.15.0",
+          "FixedVersion": "",
+          "Layer": {
+            "DiffID": "sha256:layer7..."
+          },
+          "SeveritySource": "nvd",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-22222",
+          "Title": "jackson-databind: Deserialization of Untrusted Data vulnerability",
+          "Description": "FasterXML jackson-databind allows attackers to cause a denial of service via crafted object deserialization. No fix currently available.",
+          "Severity": "CRITICAL",
+          "CweIDs": ["CWE-502"],
+          "CVSS": {
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.0
+            }
+          },
+          "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-22222",
+            "https://github.com/FasterXML/jackson-databind/issues/xxxx"
+          ],
+          "PublishedDate": "2024-02-10T11:00:00Z",
+          "LastModifiedDate": "2024-02-15T09:15:00Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+name,size,md5
+kodolt_uzenet.txt,675,3a0f1da2768cca8d29d68deb14a6489e

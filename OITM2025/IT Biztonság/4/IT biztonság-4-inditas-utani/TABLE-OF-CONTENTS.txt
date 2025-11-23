@@ -1,0 +1,2 @@
+name,size,md5
+app-debug.apk,7338096,9148bac66f097a37975ba07e968f5c67
