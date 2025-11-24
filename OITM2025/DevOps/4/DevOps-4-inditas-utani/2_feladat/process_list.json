@@ -1,0 +1,217 @@
+{
+  "timestamp": "2025-10-01T14:30:15Z",
+  "hostname": "WORKSTATION-07",
+  "processes": [
+    {
+      "pid": 4,
+      "name": "System",
+      "path": "System",
+      "parent_pid": 0,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:11"
+    },
+    {
+      "pid": 384,
+      "name": "smss.exe",
+      "path": "C:\\Windows\\System32\\smss.exe",
+      "parent_pid": 4,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:11"
+    },
+    {
+      "pid": 512,
+      "name": "csrss.exe",
+      "path": "C:\\Windows\\System32\\csrss.exe",
+      "parent_pid": 384,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:15"
+    },
+    {
+      "pid": 588,
+      "name": "wininit.exe",
+      "path": "C:\\Windows\\System32\\wininit.exe",
+      "parent_pid": 384,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:16"
+    },
+    {
+      "pid": 644,
+      "name": "services.exe",
+      "path": "C:\\Windows\\System32\\services.exe",
+      "parent_pid": 588,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:17"
+    },
+    {
+      "pid": 672,
+      "name": "lsass.exe",
+      "path": "C:\\Windows\\System32\\lsass.exe",
+      "parent_pid": 588,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:17"
+    },
+    {
+      "pid": 788,
+      "name": "svchost.exe",
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "cmdline": "C:\\Windows\\System32\\svchost.exe -k DcomLaunch",
+      "parent_pid": 644,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:22"
+    },
+    {
+      "pid": 892,
+      "name": "svchost.exe",
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "cmdline": "C:\\Windows\\System32\\svchost.exe -k RPCSS",
+      "parent_pid": 644,
+      "user": "NT AUTHORITY\\NETWORK SERVICE",
+      "start_time": "08:23:24"
+    },
+    {
+      "pid": 1024,
+      "name": "svchost.exe",
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "cmdline": "C:\\Windows\\System32\\svchost.exe -k LocalService",
+      "parent_pid": 644,
+      "user": "NT AUTHORITY\\LOCAL SERVICE",
+      "start_time": "08:23:26"
+    },
+    {
+      "pid": 1156,
+      "name": "svchost.exe",
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "cmdline": "C:\\Windows\\System32\\svchost.exe -k netsvcs",
+      "parent_pid": 644,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:28"
+    },
+    {
+      "pid": 1344,
+      "name": "dwm.exe",
+      "path": "C:\\Windows\\System32\\dwm.exe",
+      "parent_pid": 512,
+      "user": "Window Manager\\DWM-1",
+      "start_time": "08:23:35"
+    },
+    {
+      "pid": 1488,
+      "name": "explorer.exe",
+      "path": "C:\\Windows\\explorer.exe",
+      "parent_pid": 1444,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "08:24:12"
+    },
+    {
+      "pid": 2048,
+      "name": "SearchUI.exe",
+      "path": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchUI.exe",
+      "parent_pid": 1488,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "08:24:45"
+    },
+    {
+      "pid": 2256,
+      "name": "chrome.exe",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "parent_pid": 1488,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "09:15:33"
+    },
+    {
+      "pid": 2688,
+      "name": "chrome.exe",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "cmdline": "chrome.exe --type=renderer",
+      "parent_pid": 2256,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "09:15:35"
+    },
+    {
+      "pid": 3124,
+      "name": "MsMpEng.exe",
+      "path": "C:\\Program Files\\Windows Defender\\MsMpEng.exe",
+      "parent_pid": 644,
+      "user": "NT AUTHORITY\\SYSTEM",
+      "start_time": "08:23:42"
+    },
+    {
+      "pid": 4412,
+      "name": "outlook.exe",
+      "path": "C:\\Program Files\\Microsoft Office\\Office16\\OUTLOOK.EXE",
+      "parent_pid": 1488,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "09:02:18"
+    },
+    {
+      "pid": 5688,
+      "name": "powershell.exe",
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "cmdline": "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Users\\Public\\update.ps1",
+      "parent_pid": 4412,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "14:15:18"
+    },
+    {
+      "pid": 45123,
+      "name": "svchost.exe",
+      "path": "C:\\Users\\Public\\svchost.exe",
+      "cmdline": "C:\\Users\\Public\\svchost.exe",
+      "parent_pid": 5688,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "14:15:23"
+    },
+    {
+      "pid": 45256,
+      "name": "vssadmin.exe",
+      "path": "C:\\Windows\\System32\\vssadmin.exe",
+      "cmdline": "vssadmin delete shadows /all /quiet",
+      "parent_pid": 45123,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "14:18:45"
+    },
+    {
+      "pid": 45301,
+      "name": "bcdedit.exe",
+      "path": "C:\\Windows\\System32\\bcdedit.exe",
+      "cmdline": "bcdedit /set {default} recoveryenabled no",
+      "parent_pid": 45123,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "14:19:02"
+    },
+    {
+      "pid": 45455,
+      "name": "wmic.exe",
+      "path": "C:\\Windows\\System32\\wbem\\wmic.exe",
+      "cmdline": "wmic shadowcopy delete",
+      "parent_pid": 45123,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "14:19:15"
+    },
+    {
+      "pid": 45502,
+      "name": "cipher.exe",
+      "path": "C:\\Windows\\System32\\cipher.exe",
+      "cmdline": "cipher /w:C:",
+      "parent_pid": 45123,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "14:28:30"
+    },
+    {
+      "pid": 6788,
+      "name": "notepad.exe",
+      "path": "C:\\Windows\\System32\\notepad.exe",
+      "parent_pid": 1488,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "11:42:05"
+    },
+    {
+      "pid": 7124,
+      "name": "OneDrive.exe",
+      "path": "C:\\Users\\john.doe\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe",
+      "parent_pid": 1488,
+      "user": "WORKSTATION-07\\john.doe",
+      "start_time": "08:24:22"
+    }
+  ]
+}
