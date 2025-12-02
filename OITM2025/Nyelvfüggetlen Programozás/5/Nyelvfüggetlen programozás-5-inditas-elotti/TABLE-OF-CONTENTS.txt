@@ -1,0 +1,2 @@
+name,size,md5
+archipelago.txt,92106,619839e2a075ccf2f6154adf047d2184
